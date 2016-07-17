@@ -5,7 +5,7 @@ use NusanetSms\Exception\NusanetSmsException;
 
 class Request
 {
-    const NUSANET_SMS_API_URI = 'http://150.107.136.94:8898';
+    const NUSANET_SMS_API_URI = 'https://api-sms.nusa.net.id';
 
     protected $nsHttpRequestHeaders;
     protected $nsHttpRequestBody;
