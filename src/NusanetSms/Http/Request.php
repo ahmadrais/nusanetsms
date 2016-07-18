@@ -45,6 +45,7 @@ class Request
                 'detail' => 'Internal Server Error',
             ));
         }
+        curl_close($curl);
         return $response;
     }
 
